@@ -1,0 +1,55 @@
+.pop-up{
+    position: fixed;    
+    height: 470px;
+    width: 800px;
+
+    top: 47%;                 
+    left: 50%;                
+    transform: translate(-50%, -50%);
+
+    padding: 10px 10px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.pop-up-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    font-size: 2rem;
+}
+
+.close-button{
+    background-color: transparent;
+    border: none;  
+}
+
+.close-button :hover{
+    cursor: pointer;
+}
+
+.form{
+    /* border: 2px solid red; */
+    height: 85%;
+    padding: 10px 10px;
+}
+
+.usernameInput{
+    border: 2px dotted grey;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.language{
+    border: 2px dotted grey;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+.card{
+    border: 2px solid red;
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-design{
+    border: 2px solid green;
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

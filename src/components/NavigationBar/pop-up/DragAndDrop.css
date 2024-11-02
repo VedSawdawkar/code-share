@@ -1,0 +1,26 @@
+.fileDrop{
+    border: 2px dashed grey;
+    height: 150px;
+    margin-top: 20px;
+
+}
+
+.dropIconSvg{
+    margin-left: 40%;
+}
+
+.fileDropMainSection{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showFileNamesList ul{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
